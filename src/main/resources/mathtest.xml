@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<frame xmlns="http://www.swixml.org/2007/Swixml">
+    <panel constraints="BorderLayout.NORTH" >
+        <panel layout="FlowLayout">
+            <label text="测试" font="楷体" size="14" />
+            <combobox id="range"  />
+            <label text="以内" font="楷体" size="14" />
+            <combobox id="op"  />
+            <label text="法" font="楷体" size="14" />
+        </panel>
+    </panel>
+    <panel constraints="BorderLayout.WEST" >
+        <list id="questions" />
+    </panel>
+    <panel constraints="BorderLayout.CENTER" >
+        <panel>
+            <label text="8+2=" font="楷体" size="28" />
+            <textfield id="value" columns="3" />
+        </panel>
+        <panel>
+            <button>OK</button>
+        </panel>
+    </panel>
+</frame>
